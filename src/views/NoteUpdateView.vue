@@ -72,7 +72,13 @@ const displayText = computed(() => {
 </script>
 
 <template>
-  <v-card height="auto" width="50%" class="pa-10 mx-auto my-16" rounded="xl">
+  <v-card
+    height="auto"
+    min-width="250px"
+    max-width="50%"
+    class="pa-10 mx-auto my-16"
+    rounded="xl"
+  >
     <v-alert
       v-if="noteStore.isUpdate"
       width="90%"

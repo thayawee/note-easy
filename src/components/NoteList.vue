@@ -12,7 +12,7 @@ defineProps({
   <v-card
     v-for="note in notes"
     :key="note.id"
-    class="mt-6 pa-5"
+    class="mt-6 pa-5 overflow-auto"
     width="auto"
     rounded="xl"
     variant="outlined"
